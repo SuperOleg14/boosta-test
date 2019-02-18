@@ -1,0 +1,50 @@
+/*
+* Third Party
+*/
+@import "../../node_modules/normalize.css/normalize.css";
+
+a{
+  color: #121212;
+  text-decoration: none;
+  transition: .4s;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ul{
+  padding-left: 0;
+}
+
+ul li{
+  list-style-type: none;
+}
+p{
+  display: block;
+  margin: 0;
+}
+
+body{
+  position: relative;
+  background: #f1f1f1;
+  font: 16px/26px "open_sanslight";
+  color: #000000;
+}
+
+
+
+@import "header";
+
+@import "hamburger";
+
+@import "footer";
+
+@import "index";
+
+@import "media";
+
+
+
+
+

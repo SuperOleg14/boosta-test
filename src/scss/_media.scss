@@ -1,0 +1,273 @@
+@media screen and (min-width: 992px) {
+
+  .section-container{
+    max-width: 910px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  .container{
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .section-container{
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .info {
+    &:before{
+      width: 40%;
+    }
+    .info-content {
+      padding-top: 100px;
+      padding-bottom: 80px;
+    }
+  }
+
+  .footer-info{
+    padding-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 920px){
+
+  .browser{
+    .browser-slider{
+      img{
+      }
+      .slick-slide{
+        img{
+          margin-left: 0;
+        }
+        &.slick-active{
+          & + .slick-slide{
+            img{
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+    .browser-slider-wrap{
+      .arrow{
+        left: 20%;
+        &.browser-next-btn{
+          right: 20%;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  header {
+    .header-info {
+      font-size: 24px;
+      line-height: 24px;
+      h1 {
+        font-size: 60px;
+        line-height: 60px;
+      }
+    }
+    .navbar-collapse.show{
+      padding-bottom: 20px;
+    }
+    .navbar-collapse .navbar-nav .nav-link{
+      padding-left: 20px;
+    }
+  }
+
+  .about {
+    .about-info {
+      padding: 25px 25px 20px;
+    }
+    .about-slider-photo {
+      width: 130px;
+      height: 130px;
+      padding: 15px;
+      margin-bottom: 15px;
+      svg{
+        width: 80% !important;
+      }
+    }
+    .about-slider {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 16px;
+      line-height: 22px;
+      padding-top: 30px;
+      figure {
+        figcaption{
+          max-width: 130px;
+          margin: 0 auto;
+        }
+      }
+    }
+    h2 {
+     font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      &:before {
+        width: 260px;
+      }
+    }
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .browser{
+    .browser-slider-wrap{
+      .arrow{
+        left: 10%;
+        &.browser-next-btn{
+          right: 10%;
+        }
+      }
+    }
+  }
+
+  .info{
+    &:before{
+      display: none;
+    }
+    .info-content {
+      max-width: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+
+  .footer-content{
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .footer-info{
+    max-width: 100%;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+  .footer-post{
+    max-width: 100%;
+  }
+
+  .review{
+    & > div{
+      flex-basis: 45%;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    .browser-slider{
+      & > div{
+        flex-basis: 100%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .about {
+    .about-slider{
+      flex-wrap: wrap;
+      justify-content: space-around;
+      figure{
+        flex-basis: 45%;
+      }
+    }
+  }
+
+  .browser{
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 30px;
+    .browser-slider{
+      margin-top: 20px;
+      .slick-slide{
+        opacity: 1;
+      }
+    }
+    .browser-slider-wrap{
+      .arrow{
+        left: 15px;
+        &.browser-next-btn{
+          right: 15px;
+        }
+      }
+    }
+  }
+
+  .review {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    .photo {
+      margin: 0 auto 15px;
+      width: 130px;
+      height: 130px;
+      img{
+        max-width: 60px;
+      }
+    }
+    h3{
+      margin-bottom: 20px;
+    }
+  }
+
+  .footer-post {
+    article {
+      .photo {
+        min-width: 94px;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .footer-bar-content{
+    display: block;
+    padding: 20px 0;
+  }
+
+}
+
+
+@media screen and (max-width: 380px) {
+
+  .review, .browser-slider{
+    & > div{
+      flex-basis: 100%;
+    }
+  }
+
+}
+
+
+
+
